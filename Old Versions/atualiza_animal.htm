@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOVINOCULTURA</title>
+	 <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="header">
+<h1>BOVINOCULTURA</h1>
+</div>
+
+
+<div class="clearfix">
+<div class="nav">
+	<div style="float: left;" >
+		<ul>
+			<li><a href="index.htm">INÍCIO</a></li>
+			<li><a href="about/contact_us.htm">CONTATO</a></li>
+			<li><a href="about/index.htm">SOBRE</a></li>
+		</ul>
+	</div>
+	<div style="float: right;">
+		<ul>
+			<li><a href="#signin">Cadastrar-se</a></li>
+			<li><a href="#login">Entrar</a></li>
+		</ul>
+	</div>
+	</br>
+</div>
+</div>
+
+<div class="clearfix">
+
+<div class="column menu">
+<h3>Menu</h3>
+<ul>
+	<li><a href="">Mensagens</a></li>
+	<li><a href="">Usuários</a></li>
+	<li><a href="">Rebanho</a></li>
+	<ul style="list-style-type: circle;">
+		<li><a href="">Adicionar/Remover animais</a></li>
+	</ul>
+	<li><a href="">Vacinas</a></li>
+	<li><a href="">Mercado</a></li>
+	<li><a href="">Livro de Registros</a></li>
+	<li><a href="">Ajuda</a></li>
+</ul>
+</div>
+
+<! ---------- PARTE PRINCIPAL E ATUALIZÁVEL DA PÁGINA - O RESTANTE É IGUAL EM TODAS AS PÁGINAS ---------- >
+<div class="column content">
+<h2>Atualizar animais.</h2>
+<form action="/action_page.php">
+Evento:
+<select name="event_type">
+	<option value="nascimento">Nascimento</option>
+	<option value="morte">Morte</option>
+	<option value="compra">Compra</option>
+	<option value="venda">Venda</option>
+</select>
+<br><br>
+Código: 
+<input name="codigo" type="text">
+   ???
+<br><br>
+Sexo: 
+<input type="radio" name="sexo" value="M" checked> Masculino
+<input type="radio" name="sexo" value="F"> Feminino
+<br><br>
+Data: 
+<input type="datetime-local" name="data">
+<br><br>
+<input type="submit">
+</form>
+</div>
+<! ---------- FIM DA PARTE PRINCIPAL ---------->
+</div>
+
+<div class="footer">
+Rodapé<br />
+Copyright © 2018 
+</div>

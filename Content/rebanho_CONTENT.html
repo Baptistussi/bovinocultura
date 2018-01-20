@@ -1,0 +1,39 @@
+<! ---------- PARTE PRINCIPAL E ATUALIZÁVEL DA PÁGINA - O RESTANTE É IGUAL EM TODAS AS PÁGINAS ---------- >
+<div class="column content">
+<h2>REBANHO</h2>
+<table border=1>
+	<th>
+		<td>Código</td>
+		<td>Data</td>
+		<td>Sexo</td>
+		<td>Vendido</td>
+		<td>Morto</td>
+		<td>...</td>
+	</th>
+	<tr>
+	<form action="/action_page.php">
+		<td>Filtrar</td>
+		<td><input name="codigo" type="text"></td>
+		<td><input type="datetime-local" name="data"></td>
+		<td><select name="sexo" value="Sexo">
+				<option value="M">Macho</option>
+				<option value="F">Fêmea</option>
+			</select>
+		</td>
+		<td><input type="checkbox" name="vendido" value="vendido"></td>
+		<td><input type="checkbox" name="morto" value="morto"></td>
+		<td><input type="submit"></td>
+	</form>
+	</tr>
+	<tr>
+		<td></td>
+		<td>1234</td>
+		<td>01/01/2017</td>
+		<td>Fêmea</td>
+		<td>FALSE</td>
+		<td>FALSE</td>
+		<td></td>
+	</tr>
+</table>
+</div>
+<! ---------- FIM DA PARTE PRINCIPAL ---------->

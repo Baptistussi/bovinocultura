@@ -1,0 +1,64 @@
+body {
+	background-color: #adebad;
+}
+
+.header, .footer, .nav {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+	margin: 5px;
+	border-radius:5px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+	color:white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.column {
+	float: left;
+	padding: 1%;
+	border-radius:5px;
+	background-color: #c8c8c8;
+	margin: 0.5%;
+	display: inline;
+}
+
+.column a{
+	color:black;
+}
+
+.menu {
+	width:20%
+}
+
+.content {
+	width:72%
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+li:hover {
+    background-color: #64cc64;
+}
+
+a {
+    text-decoration: none;
+}

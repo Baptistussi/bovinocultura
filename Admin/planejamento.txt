@@ -1,0 +1,28 @@
+* Melhorar design da página
+** Ícones para as opções dos menus
+
+* Criar os CSS
+
+* Sistema de comunicação entre usuários
+
+* Mural de negociação por regiões do país
+** Mapa dinâmico
+
+* Banco de dados de usuários e rebanho
+
+* Vários usuários atualizando o mesmo rebanho
+
+* Cada usuário pode operar vários rebanhos
+
+* Página de registro das atividades
+
+* Página de contato com administradores
+
+* Página de infromações "Sobre"
+
+* Feed de notícias do agronegócio
+** Previsão do tempo
+** Cotação do arroba
+** Notificações do sistema (Vacinas, etc)
+
+* Integração com Aplicativo de Android
